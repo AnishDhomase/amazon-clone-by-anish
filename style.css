@@ -1,0 +1,308 @@
+/* NAVBAR-1 */
+#nav1{
+    position: fixed;
+    display: flex;
+    align-items: center;
+    padding: 8px 1px;
+    background-color: black;
+    width: 100vw;
+    z-index: 55;
+
+}
+#nav1 .navitems{   
+    margin-right: 20px;
+}
+#nav1 #amazon_logo a img{
+    height: 49px;
+    width: 103px;
+    margin:auto;
+}
+#nav1 div #cart div a img{
+    height: 20px;
+}
+#nav1 #deliver_to{
+    width: 110px
+}
+#nav1 #lang{
+    width: 169px;
+}
+#nav1 #orders div{
+    width: 79px;
+}
+#nav1 #cart div a{
+    display: flex;
+    padding: 2px;   
+}
+#nav1 #cart div a p{
+    align-self: flex-end;    
+} 
+#nav1 #amazon_logo a{
+    display: inline-block;
+    height: 100%;
+    width: 100%;    
+}
+#nav1 #deliver_to a p{
+    text-align: center;
+} 
+#nav1 #lang label{
+    color: white;
+}
+#nav1 #account label{
+    color: white;
+}
+
+
+/* NAVBAR-1 HOVERABLE */
+#nav1 #amazon_logo a:hover{
+    border: 1px solid white;
+    border-radius: 2px;
+}
+#nav1 #deliver_to a:hover{
+    border: 1px solid white; 
+    border-radius: 2px;
+}
+#nav1 #amazon_logo a{
+    box-sizing: border-box;
+    
+}
+#nav1 #deliver_to a{
+    box-sizing: border-box;
+}
+#nav1 #search_bar input[type="text"]:focus{
+    background-color:  #e3e0dd;
+    border:2px solid yellow;
+    color: rgb(36, 35, 35);
+}
+#nav1 #deliver_to a{
+    display: flex;
+}
+#nav1 #lang #lang-item:hover{
+    border: 1px solid white; 
+    border-radius: 2px;
+}
+#nav1 #account #account-item:hover{
+    border: 1px solid white; 
+    border-radius: 2px;
+}
+#nav1 #orders div:hover{
+    border: 1px solid white; 
+    border-radius: 2px;
+}
+#nav1 #orders div{
+    box-sizing: border-box;
+    padding: 2px;
+}
+#nav1 #cart a:hover{
+    border: 1px solid white; 
+    border-radius: 2px;
+
+}
+
+
+/* NAVBAR-2 */
+#nav2 #lhs #all a{
+    display: flex;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+}
+#nav2 #lhs #all {
+    width: 41px;
+}
+#nav2 #lhs #all a img{
+    margin-right: 2px;
+    
+
+}
+#nav2{
+    padding: 5px;
+    background-color: rgb(72 72 105);
+    display: flex;
+    /* border: 1px solid red; */
+    position: fixed;
+    top: 69px;
+    width: 100vw;
+    z-index: 45;
+
+}
+#nav #lhs #all{
+    height: 100%;
+}
+#nav2 #lhs{
+    width: 814px;
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+#nav2 #lhs #all{
+    margin-right: 10px;
+}
+#nav2 #lhs #tv{
+    margin-right: 10px;
+}
+#nav2 #lhs #gift{
+    margin-right: 10px;
+}
+#nav2 #lhs #business{
+    margin-right: 10px;
+}
+#nav2 #lhs #again{
+    margin-right: 10px;
+}
+#nav2 #lhs #history{
+    margin-right: 10px;
+}
+#nav2 #rhs a{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 2px;
+}
+#nav2 #rhs a img,p{
+    margin-right: 6px;
+}
+
+/* nav-2 hoverable */
+
+.bgcnavy:hover{
+    border: 1px solid white;
+    border-radius: 3px;
+}
+#nav2 #rhs a:hover{
+    display: flex;
+    justify-content: space-evenly;
+    border: 1px solid white;
+    border-radius: 3px;
+}
+/* bajaj section  */
+#bajaj{
+    background-color: rgb(235, 230, 230);
+    padding-top: 106px;
+    padding-bottom: 1px;
+
+}
+#bajaj img{
+    margin: 20px auto;
+    display: block;
+    width: 100%;
+
+}
+#bajaj div{
+    padding: 0px 20px;
+}
+/* bajaj hoverable */
+#bajaj a img{
+    
+    /* border: 2px solid white; */
+    box-sizing: border-box;
+
+}
+#bajaj a img:hover{
+    opacity: 0.65;
+    border: 2px solid rgb(194, 191, 191);
+
+}
+
+
+/* cards section  */
+#card-section{
+    display: flex;
+    justify-content: space-evenly;
+    /* border: 1px solid red; */
+    background-color: rgb(235, 230, 230);
+    padding: 18px 4px;
+}
+#card-section .cards{
+    /* border: 3px solid black; */
+    background-color: white;
+    box-sizing: border-box;
+}
+#card-section .cards .div-in-cards .img-div .row{
+    display: flex;
+}
+#card-section .cards .div-in-cards .img-div .row .cards-image-icons{
+    height: 87px;
+    width: 127px;
+    margin: 2px 5px;
+}
+#card-section .cards .div-in-cards .img-div .row p{
+    text-align: center;
+}
+#card-section .cards .div-in-cards .img-div .row {
+    text-align: center;
+}
+#card-section .cards .div-in-cards .img-div{
+    margin: 2px 2px;
+}
+#card-section .cards .div-in-cards h4,h5{
+    text-align: center;
+}
+#card-section .cards .div-in-cards h4{
+    font-weight: 900;
+}
+/* cards hoverable */
+#card-section .cards:hover{
+    opacity: 0.85;
+    border: 2px solid rgb(213, 211, 211);
+}
+/*  Deals and offers section*/
+.deal-img{
+    height: 200px;
+}
+.deal-boxes{
+    display: flex;
+    flex-direction: column;
+    border: 2px solid red;
+}
+.deal-btns-bg-red{
+    background-color: rgb(250, 93, 45);
+    border: 1px solid rgb(250, 93, 45);
+    border-radius: 3px;
+    color: white;
+    padding: 3px;
+}
+.deal-btns-bg-white{
+    background-color: white;
+    border: 1px solid white;
+    border-radius: 3px;
+    color: rgb(250, 93, 45);
+    padding: 3px;
+}
+
+}
+
+/*  Deals and offers section  hoverable */
+
+
+
+
+
+
+
+
+
+
+/* GENERAL CSS */
+@font-face{
+    font-family:ptsans;
+    src: url(font/PTSans-Regular.ttf);
+}
+*{
+    font-family:ptsans;
+    margin: 0px;
+    padding: 0px;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+.bgcnavy{
+    background-color: rgb(72 72 105);
+    padding: 2px;
+    /* border: 1px solid red; */
+}
+.gray-text{
+    color: rgb(61, 61, 69);
+}
+.blue-text{
+    color: rgb(71, 142, 170);
+}
